@@ -15,3 +15,11 @@
 >Кентаро Миура, автор манги "Берсерк"
 ___
 <img width="613" height="609" alt="image" src="https://github.com/user-attachments/assets/0c5e5584-5b0f-4a73-b537-09fdae318f12" />
+
+# Лабораторная работа №2
+**Тема:**  
+Web-сайт на тему «Жанр Roguelike».  
+**Технологии:**  
+HTML, CSS.  
+**Страницы:**   
+index.html, games.html, about.html.
