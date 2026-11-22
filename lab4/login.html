@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Roguelike — Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <header class="header">
+        <a class="header__reg-btn" href="login.html">Регистрация</a>
+        <h1 class="header__title">Регистрация</h1>
+        <nav class="nav">
+            <a class="nav__link" href="index.html">Главная</a> |
+            <a class="nav__link" href="games.html">Игры</a> |
+            <a class="nav__link" href="about.html">О жанре</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h2 class="center">Создание аккаунта</h2>
+
+        <form class="auth-form" id="authForm">
+            <div class="auth-form__group">
+                <label class="auth-form__label" for="login">Логин:</label>
+                <input class="auth-form__input" type="text" id="login" name="login" required>
+            </div>
+
+            <div class="auth-form__group">
+                <label class="auth-form__label" for="password">Пароль:</label>
+                <input class="auth-form__input" type="password" id="password" name="password" required>
+            </div>
+
+            <div class="auth-form__group auth-form__group_checkbox">>
+                <input class="auth-form__checkbox" type="checkbox" id="consent" name="consent" required>
+                <label class="auth-form__label" for="consent">Согласие на обработку данных</label>
+            </div>
+
+            <button class="auth-form__button" type="submit">Зарегистрироваться</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Лабораторная работа №4</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
